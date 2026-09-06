@@ -1,0 +1,30 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "msradam-skills",
+  "owner": {
+    "name": "Adam Rahman",
+    "url": "https://github.com/msradam"
+  },
+  "metadata": {
+    "description": "Original Claude Code skills authored from canonical, professionally-written software engineering guides — for autonomous audit-and-fix use, not conversational co-authoring."
+  },
+  "plugins": [
+    {
+      "name": "swe-writeups",
+      "description": "Nine autonomous audit skills for comments, commit messages, code review, testing, refactoring, API design, error handling, naming, and logging — each grounded in one specific, well-regarded engineering writeup. See NOTICE.md for sources.",
+      "source": "./",
+      "category": "productivity",
+      "skills": [
+        "./skills/comment-audit",
+        "./skills/commit-message-audit",
+        "./skills/code-review-audit",
+        "./skills/test-pyramid-audit",
+        "./skills/refactoring-smells",
+        "./skills/api-design-audit",
+        "./skills/error-handling-audit",
+        "./skills/naming-audit",
+        "./skills/logging-audit"
+      ]
+    }
+  ]
+}
