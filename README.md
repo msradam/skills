@@ -22,6 +22,9 @@ Unlike a conversational co-authoring workflow, these are designed to scan and fi
 - **code-documentation-audit** — docstring mechanics (PEP 257) + picking the right doc type (Divio)
 - **marketing-copy-audit** — clear positioning before clear copy (April Dunford)
 
+**`product-skills`** — adversarial critique:
+- **product-critique** — four big risks, separately (Marty Cagan) + is the problem real (Paul Graham)
+
 **`static-analysis`** — deterministic linting, no writeup needed, runs real tools:
 - **lint-python** — ruff (lint + format) + mypy (types)
 - **lint-go** — go vet + golangci-lint
@@ -34,6 +37,7 @@ Unlike a conversational co-authoring workflow, these are designed to scan and fi
 /plugin install swe-writeups@msradam-skills
 /plugin install writing-skills@msradam-skills
 /plugin install static-analysis@msradam-skills
+/plugin install product-skills@msradam-skills
 ```
 
 ## License

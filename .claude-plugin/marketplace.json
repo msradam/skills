@@ -6,12 +6,12 @@
     "url": "https://github.com/msradam"
   },
   "metadata": {
-    "description": "Original Claude Code skills authored from canonical, professionally-written software engineering guides — for autonomous audit-and-fix use, not conversational co-authoring."
+    "description": "Original Claude Code skills authored from canonical, professionally-written software engineering guides \u2014 for autonomous audit-and-fix use, not conversational co-authoring."
   },
   "plugins": [
     {
       "name": "swe-writeups",
-      "description": "Nine autonomous audit skills for comments, commit messages, code review, testing, refactoring, API design, error handling, naming, and logging — each grounded in one specific, well-regarded engineering writeup. See NOTICE.md for sources.",
+      "description": "Nine autonomous audit skills for comments, commit messages, code review, testing, refactoring, API design, error handling, naming, and logging \u2014 each grounded in one specific, well-regarded engineering writeup. See NOTICE.md for sources.",
       "source": "./",
       "category": "productivity",
       "skills": [
@@ -28,7 +28,7 @@
     },
     {
       "name": "writing-skills",
-      "description": "Autonomous audit skills for READMEs, code/API documentation, and product marketing copy — each grounded in one specific, well-regarded writeup. See NOTICE.md for sources.",
+      "description": "Autonomous audit skills for READMEs, code/API documentation, and product marketing copy \u2014 each grounded in one specific, well-regarded writeup. See NOTICE.md for sources.",
       "source": "./",
       "category": "productivity",
       "skills": [
@@ -39,13 +39,22 @@
     },
     {
       "name": "static-analysis",
-      "description": "Deterministic linting/type-checking skills for Python (ruff, mypy), Go (go vet, golangci-lint), and TypeScript (tsc, eslint) — runs real tools, not stylistic opinion.",
+      "description": "Deterministic linting/type-checking skills for Python (ruff, mypy), Go (go vet, golangci-lint), and TypeScript (tsc, eslint) \u2014 runs real tools, not stylistic opinion.",
       "source": "./",
       "category": "productivity",
       "skills": [
         "./skills/lint-python",
         "./skills/lint-go",
         "./skills/lint-typescript"
+      ]
+    },
+    {
+      "name": "product-skills",
+      "description": "Adversarial product critique grounded in Marty Cagan's four big risks and Paul Graham on real problems. See NOTICE.md for sources.",
+      "source": "./",
+      "category": "productivity",
+      "skills": [
+        "./skills/product-critique"
       ]
     }
   ]
