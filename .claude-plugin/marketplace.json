@@ -39,22 +39,24 @@
     },
     {
       "name": "static-analysis",
-      "description": "Deterministic linting/type-checking skills for Python (ruff, mypy), Go (go vet, golangci-lint), and TypeScript (tsc, eslint) \u2014 runs real tools, not stylistic opinion.",
+      "description": "Deterministic linting/type-checking skills for Python (ruff, mypy), Go (go vet, golangci-lint), TypeScript (tsc, eslint), and accessibility/performance (pa11y, Lighthouse) \u2014 runs real tools, not stylistic opinion.",
       "source": "./",
       "category": "productivity",
       "skills": [
         "./skills/lint-python",
         "./skills/lint-go",
-        "./skills/lint-typescript"
+        "./skills/lint-typescript",
+        "./skills/lint-a11y"
       ]
     },
     {
       "name": "product-skills",
-      "description": "Adversarial product critique grounded in Marty Cagan's four big risks and Paul Graham on real problems. See NOTICE.md for sources.",
+      "description": "Adversarial product critique (Marty Cagan's four big risks, Paul Graham) and delight judgment (NN/g, Amber Case). See NOTICE.md for sources.",
       "source": "./",
       "category": "productivity",
       "skills": [
-        "./skills/product-critique"
+        "./skills/product-critique",
+        "./skills/delight-audit"
       ]
     }
   ]

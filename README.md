@@ -24,11 +24,13 @@ Unlike a conversational co-authoring workflow, these are designed to scan and fi
 
 **`product-skills`** — adversarial critique:
 - **product-critique** — four big risks, separately (Marty Cagan) + is the problem real (Paul Graham)
+- **delight-audit** — surface vs deep delight, foundation before flourish (NN/g) + attention in the periphery (Amber Case)
 
 **`static-analysis`** — deterministic linting, no writeup needed, runs real tools:
 - **lint-python** — ruff (lint + format) + mypy (types)
 - **lint-go** — go vet + golangci-lint
 - **lint-typescript** — tsc (types) + eslint (lint)
+- **lint-a11y** — pa11y (axe rules) + Lighthouse against a running page
 
 ## Install (Claude Code)
 
